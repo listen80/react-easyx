@@ -1,0 +1,1 @@
+easyX wrap react component will share data

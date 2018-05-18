@@ -1,0 +1,12 @@
+{
+  "description": "easyx , an easy redux",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "email": "13631624455@163.com",
+      "name": "listen80"
+    }
+  ],
+  "name": "easyx",
+  "version": "1.0.0"
+}
