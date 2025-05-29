@@ -2,7 +2,7 @@ import React from 'react'
 let state = {},
   handles = [],
   merge = o => { state = Object.assign(state, o) },
-  dispatch = o => { merge(o), handles.forEach(d => d()) },
+  dispatch = o => { merge(o); handles.forEach(d => d()) },
   getState = o => state,
   easyX = (o) => class Component extends React.Component {
     constructor(...props) {
@@ -16,4 +16,4 @@ let state = {},
       return React.createElement(o, Object.assign({}, state, this.props))
     }
   }
-export { dispatch, easyx, merge, getState }
+export { dispatch, easyX, merge, getState }
