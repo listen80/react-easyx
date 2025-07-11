@@ -13,7 +13,9 @@ let state = {},
       handles.splice(handles.indexOf(this.dispatch), 1)
     }
     render() {
-      return React.createElement(o, Object.assign({}, state, this.props))
+      return React.createElement(o, Object.assign({
+        _eaxy: true
+      }, state, this.props))
     }
   }
 export { dispatch, easyX, merge, getState }
