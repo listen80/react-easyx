@@ -1,5 +1,7 @@
 # react-easyx
 
+## demo
+(demo)[build/]
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -16,6 +18,3 @@ You may also see any lint errors in the console.
 
 
 ### `npm run build`
-
-
-
