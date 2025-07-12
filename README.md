@@ -1,7 +1,7 @@
 # react-easyx
 
 ## demo
-(demo)[build/]
+[点我在线验证](build/)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
